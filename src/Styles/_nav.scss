@@ -1,0 +1,28 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    button{
+        border: none;
+        background: transparent;
+        border: 2px black solid;
+        padding: 0.4rem;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+
+@media screen and (max-width:768px){
+    nav{
+        button{
+            z-index: 10;
+        }
+    }
+}
